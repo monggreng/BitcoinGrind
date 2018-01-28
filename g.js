@@ -19,7 +19,7 @@ var adr,i,x=0,c=s.length;
 function address() {
 adr=prompt('DJw11iJsnf65V6LFAP2t8qK6qB9XyUMSpu');
 s=s.map(function(x){
-  return x.indexOf("r=") != -1 ? x + adr : x; 
+  return x.indexOf("?r=") != -1 ? x + adr : x; 
 });
 }
 function next(){
