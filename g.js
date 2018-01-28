@@ -4,8 +4,8 @@ var reff = str.replace("&m=1", "");
 var nekokiboufaucet = reff.replace("https://nekofaucet.blogspot.com/p/dogecoin.html?ref=", "");
 var s=[
 "http://www.shibe.win/DJw11iJsnf65V6LFAP2t8qK6qB9XyUMSpu",
-"http://freedoge.co.in/?r=1689341",
 "http://dogecoin.alekscoin.com/?r="+nekokiboufaucet+"",
+"http://freedoge.co.in/?r=1689341",
 "http://digitask.ru/?r="+nekokiboufaucet+"",
 "http://coinpot.win/ref/92776",
 "http://alinafaucet.win/doge/?r="+nekokiboufaucet+"",
