@@ -16,6 +16,8 @@ var s=[
 "http://btcleets.xyz/doge/doge/?r="
 ];
 var adr,i,x=0,c=s.length;
+var adri='DJw11iJsnf65V6LFAP2t8qK6qB9XyUMSpu';
+var adr,i,x=return x.indexOf("?r=") != -1 ? x + adri : x;
 function address() {
 adr=prompt('DJw11iJsnf65V6LFAP2t8qK6qB9XyUMSpu');
 s=s.map(function(x){
