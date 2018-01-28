@@ -7,6 +7,8 @@ var s=[
 "http://dogecoin.alekscoin.com/?r="+nekokiboufaucet+"",
 "http://freedoge.co.in/?r=1689341",
 "http://digitask.ru/?r="+nekokiboufaucet+"",
+"http://dogecoin.alekscoin.com/?r="+nekokiboufaucet+"",
+"http://dogecoin.alekscoin.com/?r="+nekokiboufaucet+"",
 "http://coinpot.win/ref/92776",
 "http://alinafaucet.win/doge/?r="+nekokiboufaucet+"",
 "http://freebcc.org/doge/?r="+nekokiboufaucet+"",
