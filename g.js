@@ -1,8 +1,14 @@
 var currentURL=location.href;
 var str = currentURL;
 var reff = str.replace("&m=1", "");
-var nekokiboufaucet = reff.replace("https://nekofaucet.blogspot.com/p/bitcoin.html?ref=", "");
-
+var NK = reff.replace("https://nekofaucet.blogspot.com/p/dogecoin.html?ref=", "");
+  if (NK == "0") {
+        var NK = "Not a valid number";
+    } else {
+        var NK = "Number must be less than 99999";
+    }
+}
+var nekokiboufaucet = ""+NK+"";
 var s=[
 "http://www.shibe.win/DJw11iJsnf65V6LFAP2t8qK6qB9XyUMSpu",
 "http://freedoge.co.in/?r=1689341",
