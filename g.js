@@ -1,24 +1,25 @@
+var currentURL=location.href;
+var str = currentURL;
+var reff = str.replace("&m=1", "");
+var nekokiboufaucet = reff.replace("https://nekofaucet.blogspot.com/p/bitcoin.html?ref=", "");
 var s=[
 "http://www.shibe.win/DJw11iJsnf65V6LFAP2t8qK6qB9XyUMSpu",
 "http://freedoge.co.in/?r=1689341",
-"http://dogecoin.alekscoin.com/?r=",
-"http://digitask.ru/?r=",
+"http://dogecoin.alekscoin.com/?r="+nekokiboufaucet+"",
+"http://digitask.ru/?r="+nekokiboufaucet+"",
 "http://coinpot.win/ref/92776",
-"http://alinafaucet.win/doge/?r=",
-"http://freebcc.org/doge/?r=",
-"http://btcleets.xyz/doge/doge/?r=",
-"http://cryptoclaimer.website/doge/?r=",
-"http://claimbit.top/doge/doge/?r=",
-"http://furturebitearnmore.xyz/doge?r=",
-"http://pdfaucet.xyz/doge/?r=",
+"http://alinafaucet.win/doge/?r="+nekokiboufaucet+"",
+"http://freebcc.org/doge/?r="+nekokiboufaucet+"",
+"http://btcleets.xyz/doge/doge/?r="+nekokiboufaucet+"",
+"http://cryptoclaimer.website/doge/?r="+nekokiboufaucet+"",
+"http://claimbit.top/doge/doge/?r="+nekokiboufaucet+"",
+"http://furturebitearnmore.xyz/doge?r="+nekokiboufaucet+"",
+"http://pdfaucet.xyz/doge/?r="+nekokiboufaucet+"",
 "http://btc-list.com/?ref=DJw11iJsnf65V6LFAP2t8qK6qB9XyUMSpu",
-"http://faucetbit.club/Doge/?r=",
-"http://btcleets.xyz/doge/doge/?r="
+"http://faucetbit.club/Doge/?r="+nekokiboufaucet+"",
+"http://btcleets.xyz/doge/doge/?r="+nekokiboufaucet+""
 ];
 var adr,i,x=0,c=s.length;
-var adri='DJw11iJsnf65V6LFAP2t8qK6qB9XyUMSpu';
-var adr,i,x=s.map(function(x){
-  return x.indexOf("?r=") != -1 ? x + adri : x;
 function address() {
 adr=prompt('DJw11iJsnf65V6LFAP2t8qK6qB9XyUMSpu');
 s=s.map(function(x){
