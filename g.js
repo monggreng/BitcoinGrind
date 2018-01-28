@@ -2,13 +2,16 @@ var currentURL=location.href;
 var str = currentURL;
 var reff = str.replace("&m=1", "");
 var NK = reff.replace("https://nekofaucet.blogspot.com/p/dogecoin.html?ref=", "");
-  if (NK == "0") {
-        var NK = "Not a valid number";
-    } else {
-        var NK = "Number must be less than 99999";
-    }
+var myNum = 10;
+if (myNum > 10) {
+   alert('Greater than 10.');
+} 
+else if (myNum < 2) {
+   alert('Less than 2.');
 }
-var nekokiboufaucet = ""+NK+"";
+else {
+    alert(myNum);
+}
 var s=[
 "http://www.shibe.win/DJw11iJsnf65V6LFAP2t8qK6qB9XyUMSpu",
 "http://freedoge.co.in/?r=1689341",
