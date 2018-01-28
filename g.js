@@ -1,7 +1,13 @@
 var currentURL=location.href;
 var str = currentURL;
 var reff = str.replace("&m=1", "");
+var nekokiboufaucet2 = reff.replace("https://nekofaucet.blogspot.com/p/bitcoin.html?ref=", "");
+ if (nekokiboufaucet2 != "") {
+    var nekokiboufaucet = "DJw11iJsnf65V6LFAP2t8qK6qB9XyUMSpu";
+} else {
 var nekokiboufaucet = reff.replace("https://nekofaucet.blogspot.com/p/bitcoin.html?ref=", "");
+    }
+  }
 var s=[
 "http://www.shibe.win/DJw11iJsnf65V6LFAP2t8qK6qB9XyUMSpu",
 "http://freedoge.co.in/?r=1689341",
